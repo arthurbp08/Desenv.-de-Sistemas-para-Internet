@@ -1,0 +1,50 @@
+body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.Login {
+    padding: 40px;
+    border-radius: 30px;
+    background-color: rgb(58, 58, 104);
+    border: 2px solid rgb(58, 58, 104);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que a largura inclua o preenchimento e a borda */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    color: rgb(81, 74, 74);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(154, 154, 211);
+}
